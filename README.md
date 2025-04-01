@@ -5,7 +5,7 @@
 This project implements a **Buffer Pool Manager** with **LRU-K page replacement** and a **Disk Scheduler** in Java. It manages memory pages, handles concurrency, and efficiently schedules disk I/O operations.
 
 
-## Architecture
+## High Level Design
 ![Project Architecture](Architecture.png)
 ## Features
 - **Buffer Pool Manager**: Manages fixed-size memory frames, acts as in-memory cache for read/write operations from disk.
