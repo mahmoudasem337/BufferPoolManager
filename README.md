@@ -6,7 +6,8 @@ This project implements a **Buffer Pool Manager** with **LRU-K page replacement*
 
 
 ## High Level Design
-![Project Architecture](Architecture.png)
+![bpm drawio_815644c9](https://github.com/user-attachments/assets/fb9de0bd-8622-4788-aca5-0e68ef4c99dd)
+
 ## Features
 - **Buffer Pool Manager**: Manages fixed-size memory frames, acts as in-memory cache for read/write operations from disk.
 - **LRU-K Replacement Policy**: Tracks the *K*-th most recent accesses for eviction decisions.
